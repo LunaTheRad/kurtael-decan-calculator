@@ -34,6 +34,7 @@ export function DataTable<TData, TValue>({columns, data,}: Readonly<DataTablePro
             sorting,
         },
 
+
         getCoreRowModel: getCoreRowModel(),
     })
 

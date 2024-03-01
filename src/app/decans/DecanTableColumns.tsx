@@ -30,7 +30,6 @@ export const columns: ColumnDef<Decan>[] = [
                 </Button>
             )
         },
-
     },
     {
         accessorKey: "influence",

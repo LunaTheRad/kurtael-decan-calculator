@@ -4,7 +4,7 @@ import {Decan} from "@/app/data/definitions";
 
 export const DecanTable = (data: { decans: Decan[] }) => {
     return (
-        <div className="container mx-auto py-10">
+        <div className="container mx-auto py-10 p-1">
             <DataTable columns={columns} data={data.decans}/>
         </div>
     );
